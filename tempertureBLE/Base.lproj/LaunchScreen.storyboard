@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Copyright © 2017 " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SXb-Tc-LXb">
+                                <rect key="frame" x="117.5" y="463" width="140" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YXO-D1-7YJ">
+                                <rect key="frame" x="85" y="312" width="205" height="43"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="43" id="9F8-Fv-rz9"/>
+                                    <constraint firstAttribute="width" constant="205" id="UkD-Gt-hg0"/>
+                                </constraints>
+                                <attributedString key="attributedText">
+                                    <fragment content="Body Temperture">
+                                        <attributes>
+                                            <color key="NSColor" red="0.10288553448270799" green="0.045919330278612946" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="24" name="Helvetica"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <color key="highlightedColor" red="1" green="0.039582096626101682" blue="0.048946600478900426" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Jician Ho" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EFA-hD-tJ6">
+                                <rect key="frame" x="152" y="434" width="71" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.72860446103296572" green="0.8269855468902132" blue="0.93215417861938477" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="EFA-hD-tJ6" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="CF2-8r-gmL"/>
+                            <constraint firstItem="SXb-Tc-LXb" firstAttribute="top" secondItem="EFA-hD-tJ6" secondAttribute="bottom" constant="8" id="Gt0-II-JD5"/>
+                            <constraint firstItem="SXb-Tc-LXb" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Qp2-fJ-WeB"/>
+                            <constraint firstItem="EFA-hD-tJ6" firstAttribute="top" secondItem="YXO-D1-7YJ" secondAttribute="bottom" constant="79" id="WRT-0f-Opb"/>
+                            <constraint firstItem="YXO-D1-7YJ" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="b8M-cj-boC"/>
+                            <constraint firstItem="YXO-D1-7YJ" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="iBK-cQ-Twk"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+</document>

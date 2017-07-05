@@ -1,0 +1,770 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2EBC46E83F57C54B06DBE82B /* Pods_tempertureBLEUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 152060D8D5DB757A19E889A3 /* Pods_tempertureBLEUITests.framework */; };
+		320140C9E1B9CBFBFDCBF10E /* Pods_tempertureBLE.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A6DD5EF9F5A36669DCD4657 /* Pods_tempertureBLE.framework */; };
+		9854B5BA1E66BE3E00997C9F /* MorePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9854B5B91E66BE3E00997C9F /* MorePageViewController.swift */; };
+		9854B5BC1E71442800997C9F /* AlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9854B5BB1E71442800997C9F /* AlertViewController.swift */; };
+		9882DC471E5ED31C0063B6FC /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9882DC461E5ED31C0063B6FC /* HistoryViewController.swift */; };
+		98AE527A1E8122B10031CEC0 /* Thermometer-48.png in Resources */ = {isa = PBXBuildFile; fileRef = 98AE52791E8122B10031CEC0 /* Thermometer-48.png */; };
+		98E526E61E5C12C50082FFFB /* ChartsDatas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E526E51E5C12C50082FFFB /* ChartsDatas.swift */; };
+		98E629F11E4B074F00DF6D19 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E629F01E4B074F00DF6D19 /* AppDelegate.swift */; };
+		98E629F31E4B074F00DF6D19 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E629F21E4B074F00DF6D19 /* ViewController.swift */; };
+		98E629F61E4B074F00DF6D19 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98E629F41E4B074F00DF6D19 /* Main.storyboard */; };
+		98E629F81E4B074F00DF6D19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98E629F71E4B074F00DF6D19 /* Assets.xcassets */; };
+		98E629FB1E4B074F00DF6D19 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98E629F91E4B074F00DF6D19 /* LaunchScreen.storyboard */; };
+		98E62A061E4B074F00DF6D19 /* tempertureBLETests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E62A051E4B074F00DF6D19 /* tempertureBLETests.swift */; };
+		98E62A111E4B074F00DF6D19 /* tempertureBLEUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E62A101E4B074F00DF6D19 /* tempertureBLEUITests.swift */; };
+		98E62A231E4C4EF700DF6D19 /* BLEScanTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E62A221E4C4EF700DF6D19 /* BLEScanTableViewCell.swift */; };
+		98E62A251E4D5BF200DF6D19 /* BLEScanTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E62A241E4D5BF200DF6D19 /* BLEScanTableViewController.swift */; };
+		98E62A271E4D627100DF6D19 /* BLEMember.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E62A261E4D627100DF6D19 /* BLEMember.swift */; };
+		F0C49DA1F6D7A8B35E2D029F /* Pods_tempertureBLETests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E0701B88569580E31646E6C /* Pods_tempertureBLETests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		98E62A021E4B074F00DF6D19 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 98E629E51E4B074F00DF6D19 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98E629EC1E4B074F00DF6D19;
+			remoteInfo = tempertureBLE;
+		};
+		98E62A0D1E4B074F00DF6D19 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 98E629E51E4B074F00DF6D19 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98E629EC1E4B074F00DF6D19;
+			remoteInfo = tempertureBLE;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		152060D8D5DB757A19E889A3 /* Pods_tempertureBLEUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tempertureBLEUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B8D1FB0A866A0D3336919D4 /* Pods-tempertureBLE.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tempertureBLE.release.xcconfig"; path = "Pods/Target Support Files/Pods-tempertureBLE/Pods-tempertureBLE.release.xcconfig"; sourceTree = "<group>"; };
+		20B059698EBBD858909E8020 /* Pods-tempertureBLEUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tempertureBLEUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-tempertureBLEUITests/Pods-tempertureBLEUITests.release.xcconfig"; sourceTree = "<group>"; };
+		36BEA1EE1B6211A6E76699AE /* Pods-tempertureBLE.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tempertureBLE.debug.xcconfig"; path = "Pods/Target Support Files/Pods-tempertureBLE/Pods-tempertureBLE.debug.xcconfig"; sourceTree = "<group>"; };
+		3A6DD5EF9F5A36669DCD4657 /* Pods_tempertureBLE.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tempertureBLE.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E0701B88569580E31646E6C /* Pods_tempertureBLETests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tempertureBLETests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E29ACF047F4A93A7E3AE8CD /* Pods-tempertureBLETests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tempertureBLETests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-tempertureBLETests/Pods-tempertureBLETests.debug.xcconfig"; sourceTree = "<group>"; };
+		59D914A7E22B379C21414040 /* Pods-tempertureBLETests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tempertureBLETests.release.xcconfig"; path = "Pods/Target Support Files/Pods-tempertureBLETests/Pods-tempertureBLETests.release.xcconfig"; sourceTree = "<group>"; };
+		9854B5B91E66BE3E00997C9F /* MorePageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MorePageViewController.swift; sourceTree = "<group>"; };
+		9854B5BB1E71442800997C9F /* AlertViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertViewController.swift; sourceTree = "<group>"; };
+		9882DC461E5ED31C0063B6FC /* HistoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		98AE52791E8122B10031CEC0 /* Thermometer-48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Thermometer-48.png"; sourceTree = "<group>"; };
+		98E526E51E5C12C50082FFFB /* ChartsDatas.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartsDatas.swift; sourceTree = "<group>"; };
+		98E629ED1E4B074F00DF6D19 /* tempertureBLE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tempertureBLE.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		98E629F01E4B074F00DF6D19 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		98E629F21E4B074F00DF6D19 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		98E629F51E4B074F00DF6D19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		98E629F71E4B074F00DF6D19 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		98E629FA1E4B074F00DF6D19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		98E629FC1E4B074F00DF6D19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98E62A011E4B074F00DF6D19 /* tempertureBLETests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tempertureBLETests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		98E62A051E4B074F00DF6D19 /* tempertureBLETests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tempertureBLETests.swift; sourceTree = "<group>"; };
+		98E62A071E4B074F00DF6D19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98E62A0C1E4B074F00DF6D19 /* tempertureBLEUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tempertureBLEUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		98E62A101E4B074F00DF6D19 /* tempertureBLEUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tempertureBLEUITests.swift; sourceTree = "<group>"; };
+		98E62A121E4B074F00DF6D19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98E62A221E4C4EF700DF6D19 /* BLEScanTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BLEScanTableViewCell.swift; sourceTree = "<group>"; };
+		98E62A241E4D5BF200DF6D19 /* BLEScanTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BLEScanTableViewController.swift; sourceTree = "<group>"; };
+		98E62A261E4D627100DF6D19 /* BLEMember.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BLEMember.swift; sourceTree = "<group>"; };
+		CFBB827B1F336CB3023C83CE /* Pods-tempertureBLEUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tempertureBLEUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-tempertureBLEUITests/Pods-tempertureBLEUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		98E629EA1E4B074F00DF6D19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				320140C9E1B9CBFBFDCBF10E /* Pods_tempertureBLE.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98E629FE1E4B074F00DF6D19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0C49DA1F6D7A8B35E2D029F /* Pods_tempertureBLETests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98E62A091E4B074F00DF6D19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EBC46E83F57C54B06DBE82B /* Pods_tempertureBLEUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		98AE52781E8122890031CEC0 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				98AE52791E8122B10031CEC0 /* Thermometer-48.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		98E629E41E4B074F00DF6D19 = {
+			isa = PBXGroup;
+			children = (
+				98AE52781E8122890031CEC0 /* images */,
+				98E629EF1E4B074F00DF6D19 /* tempertureBLE */,
+				98E62A041E4B074F00DF6D19 /* tempertureBLETests */,
+				98E62A0F1E4B074F00DF6D19 /* tempertureBLEUITests */,
+				98E629EE1E4B074F00DF6D19 /* Products */,
+				D3B6D2BB488F850A8B967B6B /* Pods */,
+				D59D53537F7A6A5BC65D95CC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		98E629EE1E4B074F00DF6D19 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				98E629ED1E4B074F00DF6D19 /* tempertureBLE.app */,
+				98E62A011E4B074F00DF6D19 /* tempertureBLETests.xctest */,
+				98E62A0C1E4B074F00DF6D19 /* tempertureBLEUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		98E629EF1E4B074F00DF6D19 /* tempertureBLE */ = {
+			isa = PBXGroup;
+			children = (
+				98E629F01E4B074F00DF6D19 /* AppDelegate.swift */,
+				98E629F21E4B074F00DF6D19 /* ViewController.swift */,
+				98E629F41E4B074F00DF6D19 /* Main.storyboard */,
+				98E629F71E4B074F00DF6D19 /* Assets.xcassets */,
+				98E629F91E4B074F00DF6D19 /* LaunchScreen.storyboard */,
+				98E629FC1E4B074F00DF6D19 /* Info.plist */,
+				98E62A221E4C4EF700DF6D19 /* BLEScanTableViewCell.swift */,
+				98E62A241E4D5BF200DF6D19 /* BLEScanTableViewController.swift */,
+				98E62A261E4D627100DF6D19 /* BLEMember.swift */,
+				98E526E51E5C12C50082FFFB /* ChartsDatas.swift */,
+				9882DC461E5ED31C0063B6FC /* HistoryViewController.swift */,
+				9854B5B91E66BE3E00997C9F /* MorePageViewController.swift */,
+				9854B5BB1E71442800997C9F /* AlertViewController.swift */,
+			);
+			path = tempertureBLE;
+			sourceTree = "<group>";
+		};
+		98E62A041E4B074F00DF6D19 /* tempertureBLETests */ = {
+			isa = PBXGroup;
+			children = (
+				98E62A051E4B074F00DF6D19 /* tempertureBLETests.swift */,
+				98E62A071E4B074F00DF6D19 /* Info.plist */,
+			);
+			path = tempertureBLETests;
+			sourceTree = "<group>";
+		};
+		98E62A0F1E4B074F00DF6D19 /* tempertureBLEUITests */ = {
+			isa = PBXGroup;
+			children = (
+				98E62A101E4B074F00DF6D19 /* tempertureBLEUITests.swift */,
+				98E62A121E4B074F00DF6D19 /* Info.plist */,
+			);
+			path = tempertureBLEUITests;
+			sourceTree = "<group>";
+		};
+		D3B6D2BB488F850A8B967B6B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				36BEA1EE1B6211A6E76699AE /* Pods-tempertureBLE.debug.xcconfig */,
+				1B8D1FB0A866A0D3336919D4 /* Pods-tempertureBLE.release.xcconfig */,
+				4E29ACF047F4A93A7E3AE8CD /* Pods-tempertureBLETests.debug.xcconfig */,
+				59D914A7E22B379C21414040 /* Pods-tempertureBLETests.release.xcconfig */,
+				CFBB827B1F336CB3023C83CE /* Pods-tempertureBLEUITests.debug.xcconfig */,
+				20B059698EBBD858909E8020 /* Pods-tempertureBLEUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D59D53537F7A6A5BC65D95CC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3A6DD5EF9F5A36669DCD4657 /* Pods_tempertureBLE.framework */,
+				3E0701B88569580E31646E6C /* Pods_tempertureBLETests.framework */,
+				152060D8D5DB757A19E889A3 /* Pods_tempertureBLEUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		98E629EC1E4B074F00DF6D19 /* tempertureBLE */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98E62A151E4B074F00DF6D19 /* Build configuration list for PBXNativeTarget "tempertureBLE" */;
+			buildPhases = (
+				293F33DBA2C2A18170CEC707 /* [CP] Check Pods Manifest.lock */,
+				98E629E91E4B074F00DF6D19 /* Sources */,
+				98E629EA1E4B074F00DF6D19 /* Frameworks */,
+				98E629EB1E4B074F00DF6D19 /* Resources */,
+				DF8F9840C903D25AC643188F /* [CP] Embed Pods Frameworks */,
+				60ADDA8B0CBEEFFAFF36E76D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tempertureBLE;
+			productName = tempertureBLE;
+			productReference = 98E629ED1E4B074F00DF6D19 /* tempertureBLE.app */;
+			productType = "com.apple.product-type.application";
+		};
+		98E62A001E4B074F00DF6D19 /* tempertureBLETests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98E62A181E4B074F00DF6D19 /* Build configuration list for PBXNativeTarget "tempertureBLETests" */;
+			buildPhases = (
+				F9116BA9FE3205386D89A761 /* [CP] Check Pods Manifest.lock */,
+				98E629FD1E4B074F00DF6D19 /* Sources */,
+				98E629FE1E4B074F00DF6D19 /* Frameworks */,
+				98E629FF1E4B074F00DF6D19 /* Resources */,
+				63AC0F89541619376C276374 /* [CP] Embed Pods Frameworks */,
+				05F18B3BC6761E1C98E5547F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				98E62A031E4B074F00DF6D19 /* PBXTargetDependency */,
+			);
+			name = tempertureBLETests;
+			productName = tempertureBLETests;
+			productReference = 98E62A011E4B074F00DF6D19 /* tempertureBLETests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		98E62A0B1E4B074F00DF6D19 /* tempertureBLEUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98E62A1B1E4B074F00DF6D19 /* Build configuration list for PBXNativeTarget "tempertureBLEUITests" */;
+			buildPhases = (
+				113662F00B59B4E769050B83 /* [CP] Check Pods Manifest.lock */,
+				98E62A081E4B074F00DF6D19 /* Sources */,
+				98E62A091E4B074F00DF6D19 /* Frameworks */,
+				98E62A0A1E4B074F00DF6D19 /* Resources */,
+				AB9C3DC5C91556B7A485C8AD /* [CP] Embed Pods Frameworks */,
+				AE174794B17CF933C30B5FA9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				98E62A0E1E4B074F00DF6D19 /* PBXTargetDependency */,
+			);
+			name = tempertureBLEUITests;
+			productName = tempertureBLEUITests;
+			productReference = 98E62A0C1E4B074F00DF6D19 /* tempertureBLEUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		98E629E51E4B074F00DF6D19 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = QuantaPDC;
+				TargetAttributes = {
+					98E629EC1E4B074F00DF6D19 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = JZDMCL6MF7;
+						ProvisioningStyle = Automatic;
+					};
+					98E62A001E4B074F00DF6D19 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 98E629EC1E4B074F00DF6D19;
+					};
+					98E62A0B1E4B074F00DF6D19 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 98E629EC1E4B074F00DF6D19;
+					};
+				};
+			};
+			buildConfigurationList = 98E629E81E4B074F00DF6D19 /* Build configuration list for PBXProject "tempertureBLE" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 98E629E41E4B074F00DF6D19;
+			productRefGroup = 98E629EE1E4B074F00DF6D19 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				98E629EC1E4B074F00DF6D19 /* tempertureBLE */,
+				98E62A001E4B074F00DF6D19 /* tempertureBLETests */,
+				98E62A0B1E4B074F00DF6D19 /* tempertureBLEUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		98E629EB1E4B074F00DF6D19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98E629FB1E4B074F00DF6D19 /* LaunchScreen.storyboard in Resources */,
+				98E629F81E4B074F00DF6D19 /* Assets.xcassets in Resources */,
+				98AE527A1E8122B10031CEC0 /* Thermometer-48.png in Resources */,
+				98E629F61E4B074F00DF6D19 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98E629FF1E4B074F00DF6D19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98E62A0A1E4B074F00DF6D19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		05F18B3BC6761E1C98E5547F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-tempertureBLETests/Pods-tempertureBLETests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		113662F00B59B4E769050B83 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		293F33DBA2C2A18170CEC707 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		60ADDA8B0CBEEFFAFF36E76D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-tempertureBLE/Pods-tempertureBLE-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		63AC0F89541619376C276374 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-tempertureBLETests/Pods-tempertureBLETests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB9C3DC5C91556B7A485C8AD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-tempertureBLEUITests/Pods-tempertureBLEUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE174794B17CF933C30B5FA9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-tempertureBLEUITests/Pods-tempertureBLEUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF8F9840C903D25AC643188F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-tempertureBLE/Pods-tempertureBLE-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F9116BA9FE3205386D89A761 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		98E629E91E4B074F00DF6D19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98E526E61E5C12C50082FFFB /* ChartsDatas.swift in Sources */,
+				98E62A251E4D5BF200DF6D19 /* BLEScanTableViewController.swift in Sources */,
+				98E62A231E4C4EF700DF6D19 /* BLEScanTableViewCell.swift in Sources */,
+				98E62A271E4D627100DF6D19 /* BLEMember.swift in Sources */,
+				9854B5BC1E71442800997C9F /* AlertViewController.swift in Sources */,
+				98E629F31E4B074F00DF6D19 /* ViewController.swift in Sources */,
+				9882DC471E5ED31C0063B6FC /* HistoryViewController.swift in Sources */,
+				9854B5BA1E66BE3E00997C9F /* MorePageViewController.swift in Sources */,
+				98E629F11E4B074F00DF6D19 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98E629FD1E4B074F00DF6D19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98E62A061E4B074F00DF6D19 /* tempertureBLETests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98E62A081E4B074F00DF6D19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98E62A111E4B074F00DF6D19 /* tempertureBLEUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		98E62A031E4B074F00DF6D19 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 98E629EC1E4B074F00DF6D19 /* tempertureBLE */;
+			targetProxy = 98E62A021E4B074F00DF6D19 /* PBXContainerItemProxy */;
+		};
+		98E62A0E1E4B074F00DF6D19 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 98E629EC1E4B074F00DF6D19 /* tempertureBLE */;
+			targetProxy = 98E62A0D1E4B074F00DF6D19 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		98E629F41E4B074F00DF6D19 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				98E629F51E4B074F00DF6D19 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		98E629F91E4B074F00DF6D19 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				98E629FA1E4B074F00DF6D19 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		98E62A131E4B074F00DF6D19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64 armv7";
+			};
+			name = Debug;
+		};
+		98E62A141E4B074F00DF6D19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "arm64 armv7";
+			};
+			name = Release;
+		};
+		98E62A161E4B074F00DF6D19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36BEA1EE1B6211A6E76699AE /* Pods-tempertureBLE.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JZDMCL6MF7;
+				INFOPLIST_FILE = tempertureBLE/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Jician.tempertureBLE;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		98E62A171E4B074F00DF6D19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B8D1FB0A866A0D3336919D4 /* Pods-tempertureBLE.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JZDMCL6MF7;
+				INFOPLIST_FILE = tempertureBLE/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Jician.tempertureBLE;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		98E62A191E4B074F00DF6D19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E29ACF047F4A93A7E3AE8CD /* Pods-tempertureBLETests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = tempertureBLETests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.QuantaPDC.tempertureBLETests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tempertureBLE.app/tempertureBLE";
+			};
+			name = Debug;
+		};
+		98E62A1A1E4B074F00DF6D19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59D914A7E22B379C21414040 /* Pods-tempertureBLETests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = tempertureBLETests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.QuantaPDC.tempertureBLETests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tempertureBLE.app/tempertureBLE";
+			};
+			name = Release;
+		};
+		98E62A1C1E4B074F00DF6D19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFBB827B1F336CB3023C83CE /* Pods-tempertureBLEUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = tempertureBLEUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.QuantaPDC.tempertureBLEUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = tempertureBLE;
+			};
+			name = Debug;
+		};
+		98E62A1D1E4B074F00DF6D19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20B059698EBBD858909E8020 /* Pods-tempertureBLEUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = tempertureBLEUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.QuantaPDC.tempertureBLEUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = tempertureBLE;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		98E629E81E4B074F00DF6D19 /* Build configuration list for PBXProject "tempertureBLE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98E62A131E4B074F00DF6D19 /* Debug */,
+				98E62A141E4B074F00DF6D19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98E62A151E4B074F00DF6D19 /* Build configuration list for PBXNativeTarget "tempertureBLE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98E62A161E4B074F00DF6D19 /* Debug */,
+				98E62A171E4B074F00DF6D19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98E62A181E4B074F00DF6D19 /* Build configuration list for PBXNativeTarget "tempertureBLETests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98E62A191E4B074F00DF6D19 /* Debug */,
+				98E62A1A1E4B074F00DF6D19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98E62A1B1E4B074F00DF6D19 /* Build configuration list for PBXNativeTarget "tempertureBLEUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98E62A1C1E4B074F00DF6D19 /* Debug */,
+				98E62A1D1E4B074F00DF6D19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 98E629E51E4B074F00DF6D19 /* Project object */;
+}
